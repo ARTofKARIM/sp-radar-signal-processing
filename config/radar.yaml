@@ -1,0 +1,13 @@
+radar:
+  carrier_freq: 10.0e9
+  bandwidth: 50.0e6
+  pulse_width: 10.0e-6
+  prf: 1000
+  num_pulses: 64
+  sample_rate: 100.0e6
+processing:
+  fft_size: 1024
+  cfar_guard: 4
+  cfar_training: 16
+  cfar_threshold_factor: 5.0
+  doppler_fft_size: 64
